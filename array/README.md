@@ -14,6 +14,8 @@ Before you do though, there are some things you should tweak!
 
 -t you want the upper number in this range to be one less than the number of iterations you would like e.g. 19 if you want 20 iterations (0 counts)
 
+-d pathway to yoru directory
+
 #Structure options
 
 -m rename this to whatever your paramfile is actually called.  If your extraparams file is not just called 'extraparams', you'll also need to add a -e flag and the extraparam file name
