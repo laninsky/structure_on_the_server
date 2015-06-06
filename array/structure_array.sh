@@ -1,5 +1,5 @@
 #PBS -N job_name
-#PBS -l nodes=1:ppn=1:avx,mem=5000m,walltime=4:00:00
+#PBS -l nodes=1:ppn=1:avx,mem=5000m,walltime=96:00:00
 #PBS -M your_email_address
 #PBS -t 0-19
 #PBS -r n
