@@ -8,4 +8,4 @@
 #PBS -o /dev/null
 #PBS -d /scratch/pathway_to_your_data_and_params_files
 
-structure -m your_param_file_for_specific_k -o k_specific_k_${PBS_ARRAYID} > ${PBS_O_WORKDIR}/$PBS_JOBNAME.log
+structure -m your_param_file -k nok -o nok_${PBS_ARRAYID} > ${PBS_O_WORKDIR}/$PBS_JOBNAME.log
