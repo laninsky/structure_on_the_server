@@ -1,10 +1,10 @@
 To submit a number of iterations of structure for a given k, submit 'structure_array_nok.sh' to the queue system by:
-
+```
 qsub structure_array_k1.sh
-
+```
 Before you do though, there are some things you should tweak!
 
-#PBS options
+# PBS options
 
 Change nok to the number of k you are running for all instances this occurs. You'll need a separate structure_nok file for each k you want to test.
 
